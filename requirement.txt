@@ -1,0 +1,13 @@
+torch-scatter
+torchvision
+scikit-learn==0.23.2
+nltk==3.5
+pandas==1.1.5
+datasets==1.1.0
+xlsxwriter
+word2number==1.1
+dataparser==1.0.0
+pytest==7.1.2
+regex==2022.3.2
+
+
