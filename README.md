@@ -20,7 +20,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
 ## TAT-DQA Dataset
 
-Please download the TAT-DQA dataset and put the data in the folder `dataset_tatdqa`.
+Please download the TAT-DQA dataset via this [link](https://nextplusplus.github.io/TAT-DQA/) and put the data in the folder `dataset_tatdqa`.
 
 ```bash
     dataset_tatdqa
