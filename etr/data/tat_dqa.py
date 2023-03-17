@@ -5,9 +5,6 @@ from tqdm import tqdm
 
 
 import sys
-sys.path.append('/storage/fbzhu/zf/Acl/tat-dqa')
-print(sys.path)
-
 
 from etr.model.tree_model import compute_prefix_expression
 from PIL import Image
