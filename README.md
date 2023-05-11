@@ -1,6 +1,8 @@
 Doc2SoarGraph Framework
 ====================
 
+The implementation of the paper [Doc2SoarGraph: Discrete Reasoning over Visually-Rich Table-Text Documents with Semantic-Oriented Hierarchical Graphs](https://arxiv.org/pdf/2305.01938.pdf)
+
 ## Requirements
 
 To create an environment with [MiniConda](https://docs.conda.io/en/latest/miniconda.html) and activate it.
@@ -73,5 +75,18 @@ python etr/prepare_tatdqa.py --mode test  --encoder layoutlm_v2
 
 ```bash
 python etr/doc2soar_trainer.py --data_dir ./dataset_tatdqa/ --save_dir ./checkpoint/doc2soargraph --eval_batch_size 32 --encoder layoutlm_v2 --mode test --answer_type all 
+```
+
+
+Please kindly cite our work if you use the code, thank you.
+```
+@misc{zhu2023doc2soargraph,
+      title={Doc2SoarGraph: Discrete Reasoning over Visually-Rich Table-Text Documents with Semantic-Oriented Hierarchical Graphs}, 
+      author={Fengbin Zhu and Chao Wang and Fuli Feng and Zifeng Ren and Moxin Li and Tat-Seng Chua},
+      year={2023},
+      eprint={2305.01938},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
